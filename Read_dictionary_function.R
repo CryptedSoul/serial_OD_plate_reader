@@ -3,6 +3,6 @@
 
 read_dictionary <- function(filename) {
   dictionary_names <- read.csv(file = filename, check.names = FALSE)
-  dictionary_names <- dictionary_names[, c("Plate_Number", "Well", "Gene_Name")]
+  dictionary_names <- dictionary_names[, c("Plate", "Well", "Gene_name")]
 }
 
