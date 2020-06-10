@@ -1,7 +1,7 @@
 ##function for reading a plates file. it reads the two plates, divide the GFP plate by the OD plate,
 ## and creates a dataframe containing data about each sample (plate number, time, OD, well and gene name)
 
-read_plates <- function(platefile, platename) {
+read_plates <- function(platefile, platename, dictionary_names) {
   
   plateOD <- read.csv(file = platefile, skip = 1, nrows = 97, row.names = 1, check.names = FALSE)
   
