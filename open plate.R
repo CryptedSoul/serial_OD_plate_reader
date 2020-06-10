@@ -8,6 +8,11 @@ library(ggplot2)
 library(dplyr)
 
 
+source("plate graphs function.R")
+source("Read_dictionary_function.R")
+source("Read_plates_functions.R")
+
+
 ##example of how to use the functions :
 
 dictionary <- read_dictionary("merged_dictionary.csv")
