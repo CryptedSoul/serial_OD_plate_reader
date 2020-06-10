@@ -1,0 +1,97 @@
+Plate_Number,Well,old plate,old well,Gene_Name,Description,Primer 1,Primer 2,Enzyme1,Enzyme2
+AZ01,A1,,,rihC,putative purine nucleoside hydrolase,CCGCTCGAGCTGGAAGGCCGTGAAGAA,CGGGATCCGTTCGGGTGCAAAAATCG,xhoI,bamHI
+AZ01,A2,,,yabP,unknown CDS,CCGCTCGAGGGAGATGGCGAAGCAGAA,CGGGATCCCACGTCCATCTTGTCCCC,xhoI,bamHI
+AZ01,A3,,,yabI,putative integral membrane protein (1st module),CCGCTCGAGCCAGCCCGAGCGAGTT,CGGGATCCAACACCACCGCCATCAAT,xhoI,bamHI
+AZ01,A4,,,ilvI,"acetolactate synthase III, valine sensitive, large subunit FAD and thiamine PPi binding (1st module)",CCGCTCGAGCTCTCCTGGCATGAAGCTG,CGGGATCCAGCAATTGGCAGCCAGAG,xhoI,bamHI
+AZ01,A5,,,secM,secretion monitor that regulates SecA translation,CCGCTCGAGTCCTGGCGAAACAGGAAG,CGGGATCCACGTTATTGCCATCCCGA,xhoI,bamHI
+AZ01,A6,,,yacL,conserved hypothetical protein,CCGCTCGAGACAGCCGTTGATACTTACCG,CGGGATCCAATGCACCGAAATCGCAT,xhoI,bamHI
+AZ01,A7,,,proB,gamma-glutamate kinase,CCGCTCGAGCGGCAAAAGCGAGACG,CGGGATCCGCGGCAGTTGTTTACGCT,xhoI,bamHI
+AZ01,A8,,,aroL,shikimate kinase II,CCGCTCGAGGGCGGACCAGATAGCCTT,CGGGATCCGGTTAAGCGAATCGGCAA,xhoI,bamHI
+AZ01,A9,,,serC,3-phosphoserine aminotransferase / phosphohydroxythreonine transaminase,CCGCTCGAGTCATATGAAAGCGGGGGA,CGGGATCCGTAGCATTGCCGGACCAG,xhoI,bamHI
+AZ01,A10,,,cysB,transcriptional regulator for biosynthesis of L-cysteine (LysR familiy) (1st module),CCGCTCGAGTCGGAAAAAGACGGAAAGG,CGGGATCCATCCCGGGTTGTGATGTG,xhoI,bamHI
+AZ01,A11,,,aroH,"3-deoxy-D-arabinoheptulosonate-7-phosphate synthase (DAHP synthetase), tryptophan repressible",CCGCTCGAGTCAGATCCCGTGGATTAACA,CGGGATCCACGCGCAGTACGGAGTTC,xhoI,bamHI
+AZ01,A12,,,Empty,Empty well,,,,
+AZ01,B1,,,hisL,his operon leader peptide,CCGCTCGAGGCTTTCATCATTGTTGCCG,CGGGATCCTCTTCCAGCACACATCGC,xhoI,bamHI
+AZ01,B2,,,cysK,"subunit of cysteine synthase A and  O-acetylserine sulfhydrolase A, PLP-dependent enzyme",CCGCTCGAGTGTTCATCATGCCCGTTG,CGGGATCCTCCGTTACCGATGCGATT,xhoI,bamHI
+AZ01,B3,,,pheL,leader peptide of chorismate mutase-P-prephenate dehydratase,CCGCTCGAGACAAAGGCGAAGCACGTC,CGGGATCCTCCCATTCAGGGGAAGGT,xhoI,bamHI
+AZ01,B4,,,dapF,diaminopimelate epimerase,CCGCTCGAGTTTACCGAGCGAGCATCC,CGGGATCCCCAAGGCCATGCATTTTC,xhoI,bamHI
+AZ01,B5,,,tyrB,"tyrosine aminotransferase , tyrosine repressible, PLP-dependent",CCGCTCGAGGCCCGTAGAACGTATCGC,CGGGATCCCCAGCGTAGGCGTCAACT,xhoI,bamHI
+AZ01,B6,,,cueO,"conserved protein, cupredoxin-like",CCGCTCGAGTAGCACACTGCGAGCGAG,CGGGATCCAAATACTGCGCGGCTCC,xhoI,bamHI
+AZ01,B7,,,argA,N-alpha-acetylglutamate synthase (amino-acid acetyltransferase) (1st module),CCGCTCGAGTCCTGACATGCCTCTCCC,CGGGATCCTTTTCCCCGGTGGGTATT,xhoI,bamHI
+AZ01,B8,,,lysR,transcriptional activator for lysine biosynthesis (LysR family),CCGCTCGAGCAAATTCAGCGGGCAAAC,CGGGATCCCCGCCTCAGTCAGGCTT,xhoI,bamHI
+AZ01,B9,,,metC,"cystathionine beta-lyase, PLP-dependent  (beta-cystathionase)",CCGCTCGAGGAAGAAGATTGCCCAGGTGA,GATCTAGAGGCGTGCTGGTGACTTTT,xhoI,bglII
+AZ01,B10,,,ygjG,"putative acetylornithine aminotransferase, PLP-dependent (2nd module)",CCGCTCGAGTGCAGATCGGTAGTGGACA,CGGGATCCTCGCGAAAATCGGGATAA,xhoI,bamHI
+AZ01,B11,,,argG,argininosuccinate synthetase,CCGCTCGAGAAGGGAAAGTGGTTGCGG,CGGGATCCCCGCCAGAAAAAGCGATA,xhoI,bamHI
+AZ01,B12,,,asnA,asparagine synthetase A,CCGCTCGAGGCCAAATTGTTTCGCCAG,CGGGATCCAGCCCCAGACGTTCTTCC,xhoI,bamHI
+AZ01,C1,,,ilvL,ilvGEDA operon leader peptide,CCGCTCGAGCTCAACAGTGATCGGGGG,CGGGATCCCCGCACGGTGGGATAATA,xhoI,bamHI
+AZ01,C2,,,ilvC,"ketol-acid reductoisomerase, NAD(P)-binding",CCGCTCGAGGTGGATGGGCTAACGTGC,CGGGATCCGGCCCATAAAGCGACATTT,xhoI,bamHI
+AZ01,C3,,,serA,D-3-phosphoglycerate dehydrogenase,CCGCTCGAGTGCACGAAGGCTTTCCA,CGGGATCCATTGGCACACCTGACGGT,xhoI,bamHI
+AZ01,C4,,,metE,5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase,CCGCTCGAGTGCGTCTGATGCAACGTCG,AGGGAAACCGAGGGTGT,xhoI,***
+AZ01,C5,,,metB,"cystathionine gamma-synthase, PLP-dependent",CCGCTCGAGCCGGGTTAATCCCCATCT,CGGGATCCCGGTAACGCCTGTACGGT,xhoI,bamHI
+AZ01,C6,,,argC,"N-acetyl-gamma-glutamylphosphate reductase, NAD(P)-binding",CCGCTCGAGCTTCCGTGGCGCTTATTG,CGGGATCCGGTCACTAGCTCTGCGCC,xhoI,bamHI
+AZ01,C7,,,metA,homoserine transsuccinylase,CCGCTCGAGCGTGAGTGGCATCGACAG,CGGGATCCTGACCAGACGCACGAGAA,xhoI,bamHI
+AZ01,C8,,,serB,3-phosphoserine phosphatase,CCGCTCGAGCTGCATCAGCGCCACTAA,CGGGATCCCCCGGCCATAAAGAGACA,xhoI,bamHI
+AZ01,C9,,,trpR,transcriptional repressor for tryptophan biosynthesis (TrpR family),CCGCTCGAGTGTGAAGAACGTGCTGGC,CGGGATCCTGCCATCGCTGCTGAATA,xhoI,bamHI
+AZ01,C10,AZ20,A1,mdtH,putative MFS superfamily transport protein,CCGCTCGAGGCACGACCAGCATATTATCG,CGGGATCCACCAGACGCACGACCAGT,xhoI,bamHI
+AZ01,C11,,,pheS,"phenylalanine tRNA synthetase, alpha-subunit",CCGCTCGAGTAACGCGGCAACATCTGA,CGGGATCCCGCCGTAGCCTTTTCAAT,xhoI,bamHI
+AZ01,C12,,,ybgS,putative homeobox protein,CCGCTCGAGAGTTTGCGCTCCGCTATC,CGGGATCCTTTTCCAGCAATGCGACA,xhoI,bamHI
+AZ01,D1,,,amiC,N-acetylmuramoyl-L-alanine amidase (2nd module),CCGCTCGAGTCCTGACATGCCTCTCCC,CGGGATCCTTTTCCCCGGTGGGTATT,xhoI,bamHI
+AZ01,D2,,,lysA,"diaminopimelate decarboxylase, PLP-binding (2nd module)",CCGCTCGAGCAAATTCAGCGGGCAAAC,CGGGATCCCCGCCTCAGTCAGGCTT,xhoI,bamHI
+AZ01,D3,,,b3007,unknown CDS,CCGCTCGAGGAAGAAGATTGCCCAGGTGA,GATCTAGAGGCGTGCTGGTGACTTTT,xhoI,bglII
+AZ01,D4,,,aer,"aerotaxis sensor receptor, flavoprotein ",CCGCTCGAGTGCAGATCGGTAGTGGACA,CGGGATCCTCGCGAAAATCGGGATAA,xhoI,bamHI
+AZ01,D5,,,asnC,transcriptional regulator of asparagine biosynthesis (AsnC family),CCGCTCGAGGCCAAATTGTTTCGCCAG,CGGGATCCAGCCCCAGACGTTCTTCC,xhoI,bamHI
+AZ01,D6,,,yifB,putative enzyme (1st module),CCGCTCGAGCTCAACAGTGATCGGGGG,CGGGATCCCCGCACGGTGGGATAATA,xhoI,bamHI
+AZ01,D7,,,ilvY,transcriptional activator for isoleucine and valine synthesis (LysR family),CCGCTCGAGGTGGATGGGCTAACGTGC,CGGGATCCGGCCCATAAAGCGACATTT,xhoI,bamHI
+AZ01,D8,,,metR,transcriptional regulator for methionine biosynthesis (LysR family),CCGCTCGAGTGCGTCTGATGCAACGTC   G,AGGGAAACCGAGGGTGT,xhoI,***
+AZ01,D9,,,metJ,transcriptional repressor for methionine biosynthesis (MetJ family),CCGCTCGAGCCGGGTTAATCCCCATCT,CGGGATCCCGGTAACGCCTGTACGGT,xhoI,bamHI
+AZ01,D10,,,argE,acetylornithine deacetylase (1st module),CCGCTCGAGCTTCCGTGGCGCTTATTG,CGGGATCCGGTCACTAGCTCTGCGCC,xhoI,bamHI
+AZ01,D11,,,yjaB,putative acyltransferase,CCGCTCGAGCGTGAGTGGCATCGACAG,CGGGATCCTGACCAGACGCACGAGAA,xhoI,bamHI
+AZ01,D12,,,ytjB,"membrane protein,  transcribed divergently from serB",CCGCTCGAGCTGCATCAGCGCCACTAA,CGGGATCCCCCGGCCATAAAGAGACA,xhoI,bamHI
+AZ01,E1,,,argI,ornithine carbamoyltransferase 1,CCGCTCGAGTTCAGCTTCGCGGCTAAC,CGGGATCCCCAGTTGTTCCGGGTTTG,xhoI,bamHI
+AZ01,E2,,,yaaA,putative membrane protein,CCGCTCGAGCGTATAGCGCGTGGTGGT,CGGGATCCTATCGGTCGCCAGCTTTC,xhoI,bamHI
+AZ01,E3,,,yaaH,"putative regulator, integral membrane protein",CCGCTCGAGACCCACGTTGTGCAGGTT,CGGGATCCCTGGGAGGCCCTGTAGGT,xhoI,bamHI
+AZ01,E4,,,yaaI,unknown CDS,CCGCTCGAGTTTATGGTCGTTTGCCTGC,CGGGATCCGGTGCCATCCATAATCGC,xhoI,bamHI
+AZ01,E5,,,yacH,putative membrane protein (3rd module),CCGCTCGAGGTAGAGGCGGCACAAAGC,CGGGATCCGGCCATTTGGTTTGCATC,xhoI,bamHI
+AZ01,E6,,,argF,"CP4-6 prophage; ornithine carbamoyltransferase 2, catalytic chain F (1st module)",CCGCTCGAGGGCAAGGGTCAGCAGAGA,CGGGATCCTGACAAAGTCATCGGGCA,xhoI,bamHI
+AZ01,E7,,,aspC,"aspartate aminotransferase, PLP-dependent",CCGCTCGAGTCATCGGCACGAAACAGA,CGGGATCCCAGACGACACCGTTGCTG,xhoI,bamHI
+AZ01,E8,,,wrbA,"flavodoxin-like protein, trp repressor binding protein",CCGCTCGAGCTTCAGCGCCATCCACTT,CGGGATCCCAGACCCGCGTTTGGTAA,xhoI,bamHI
+AZ01,E9,,,prmB,putative methyltransferase (2nd module),,,,
+AZ01,E10,,,cysP,ABC superfamily (peri_bind)  thiosulfate transport protein,CCGCTCGAGTCAGCAGTTCCGTTGCCT,CGGGATCCTCCTCGCATCGGATGAAT,xhoI,bamHI
+AZ01,E11,,,dapA,dihydrodipicolinate synthase,CCGCTCGAGCAAGCTAGCCCGACAGACA,CGGGATCCCACCAGATAATGTTGCGAT,G xhoI,bamHI
+AZ01,E12,,,glyA,serine hydroxymethyltransferase (2nd module),CCGCTCGAGGCGATCAGTTCGATGTGC,CGGGATCCAGCGATGGTTTGAGCGTC,xhoI,bamHI
+AZ01,F1,,,glnB,regulatory protein (P-II) for nitrogen assimilation by glutamine synthetase (ATase),CCGCTCGAGTCACTTCGGTCACCGTCA,CGGGATCCAACTGCTTTCCCGACACG,xhoI,bamHI
+AZ01,F2,,,aroF,"3-deoxy-D-arabinoheptulosonate-7-phosphate synthase (DAHP synthetase), tyrosine repressible",CCGCTCGAGAATGGAAAAGCGGCCTTC,CGGGATCCCAACAAGGGGGCGATAAA,xhoI,bamHI
+AZ01,F3,AZ05,F3,U66,promoterless strain,,,,
+AZ01,F4,AZ20,A2,ygjD,putative O-sialoglycoprotein endopeptidase,CCGCTCGAGCAAACCTTTTTCATCGTCGT,CGGGATCCCGCCAGAACACCTGCTTT,xhoI,bamHI
+AZ01,F5,,,argD,"acetylornithine transaminase (NAcOATase and DapATase), PLP-dependent",CCGCTCGAGCGGAGCATAAATCGGCAG,CGGGATCCGCCAGTGGGATCTGGAAG,xhoI,bamHI
+AZ01,F6,,,aroK,shikimate kinase I,CCGCTCGAGCGGGTTTGGCAACTGAAT,CGGGATCCATCACGCCACGACTGGTT,xhoI,bamHI
+AZ01,F7,,,glnL,"sensory kinase (phosphatase) in two-component regulatory system with GlnG (nitrogen regulator II, NRII)",CCGCTCGAGGTTGGCGTAATGGATCGC,CGGGATCCAAGAAGATGACCGCGTGC,xhoI,bamHI
+AZ01,F8,,,fruL,fruR leader peptide,CCGCTCGAGAGCATCGATTCGCGATGT,CGGGATCCAACTGCGGCAACTGCTTT,xhoI,bamHI
+AZ01,F9,,,lpd,"dihydrolipoamide dehydrogenase, FAD/NAD(P)-binding ; component of 2-oxodehydrogenase and pyruvate complexes; L protein of glycine cleavage complex second part (2nd module)",CCGCTCGAGATCGACGGTGCTGATGGT,CGGGATCCAAATCAGCGCAACGGAAG,xhoI,bamHI
+AZ01,F10,AZ20,A3,yjfY,unknown CDS,CCGCTCGAGAATTTCAATGGCTGCCCA,CGGGATCCCACCAGTGATGGCAGCAG,xhoI,bamHI
+AZ01,F11,,,ptsG,"multimodular PtsG: PTS family enzyme IIC, glucose-specific (1st module)",CCGCTCGAGACTGGCGCAGGTAACCAC,CGGGATCCTACGGATACCGGCAGCAT,xhoI,bamHI
+AZ01,F12,,,malE,"ABC superfamily (peri_bind) maltose transport protein, substrate recognition for transport and chemotaxis (2nd module)",CCGCTCGAGTTCGATTTTGGCGAGAGC,GATCTAGAGCCCCAGGCTTTCGTTAC,xhoI,bglII
+AZ01,G1,,,tktB,"transketolase 2, thiamin-binding, isozyme",ACGCGTCGACATGCGATGGCGGTAGAAA,CGGGATCCCCGGGATGACCAGAGTTG,salI,bamHI
+AZ01,G2,,,pfkA,6-phosphofructokinase I,CCGCTCGAGTTCCGGGATCGGATGTAA,CGGGATCCAGCGCAGAACGAACAACC,xhoI,bamHI
+AZ01,G3,,,edd,6-phosphogluconate dehydratase,CCGCTCGAGGGCGAGATAAGCAGAGCG,CGGGATCCGGCGATGATTACCCGTGA,xhoI,bamHI
+AZ01,G4,,,ylbE,conserved protein,CCGCTCGAGGCATTACCAATGGTCGCC,CGGGATCCCGTTCTCAACCACCAGCA,xhoI,bamHI
+AZ01,G5,,,ylbF,unknown CDS,CCGCTCGAGAGATTGGCGCAGGCAC,CGGGATCCCATCAGGTTAATCGCCCG,xhoI,bamHI
+AZ01,G6,,,renD,DLP12 prophage;,CCGCTCGAGGATTACAATCGGTGGCGG,CGGGATCCGTTTCATCGCGGCACTCT,xhoI,bamHI
+AZ01,G7,,,ybcK,DLP12 prophage; putative recombinase,CCGCTCGAGCTGCCAGCCATTATAGGCA,CGGGATCCCGCCAGACATCTGACCTG,xhoI,bamHI
+AZ01,G8,,,ybcL,DLP12 prophage; protein with phosphatidylethanolamine binding domain,CCGCTCGAGTGAAAGTAATATCCGCCCAG,CGGGATCCAGCCTGCGCAGAAAATGT,xhoI,bamHI
+AZ01,G9,,,glxK,glycerate kinase II,CCGCTCGAGACGCTTCGTCCTCTGCTC,CGGGATCCAAGAGGGTCGAAAACCCG,xhoI,bamHI
+AZ01,G10,,,flgA,flagellar biosynthesis; assembly of basal-body periplasmic P ring,CCGCTCGAGTGTGCAATTGCGATGTGA,CGGGATCCCCAGCACTTCCTGACGCT,xhoI,bamHI
+AZ01,G11,,,gnd,"gluconate-6-phosphate dehydrogenase, decarboxylating (1st module)",CCGCTCGAGAACCACGGCTTTCGATGT,CGGGATCCGGGGTTGCTGAAAAACGA,xhoI,bamHI
+AZ01,G12,,,mqo,malate dehydrogenase,CCGCTCGAGCAGTTTCCTGCTCCTCGG,CGGGATCCGGGCAACTTAGCGAGCTG,xhoI,bamHI
+AZ01,H1,AZ20,A4,rrnD,16S rRNA,CCGCTCGAGTCGTCAGCGAAACAGCAA,CGGGATCCATAATGCGCCTCCGTTGA,xhoI,bamHI
+AZ01,H2,,,eno,enolase,CCGCTCGAGACCGACGAAACCACCCTC,CGGGATCCGCCAGCGAGTTCCAGAAA,xhoI,bamHI
+AZ01,H3,,,rpiA,"ribosephosphate isomerase, constitutive",CCGCTCGAGGCGGTGGAACCTGTACCT,CGGGATCCATGAGTTAACCACGCGGC,xhoI,bamHI
+AZ01,H4,,,glcB,malate synthase G,CCGCTCGAGAGCGTCCAGCCCTGTTC,CGGGATCCGGCAAATTATTGGTGCCG,xhoI,bamHI
+AZ01,H5,,,rpe,D-ribulose-5-phosphate 3-epimerase,CCGCTCGAGCAGGGCTTTTGCGGTATC,CGGGATCCGTGGACGAACTGCTGGCT,xhoI,bamHI
+AZ01,H6,,,gntR,transcriptional repressor for gluconate utilization (GalR/LacI familiy),CCGCTCGAGGGCTGACCGTCATTTTGG,CGGGATCCGGCAATCTCCATCCATGC,xhoI,bamHI
+AZ01,H7,,,tpiA,triosephosphate isomerase,CCGCTCGAGGCCAGCTCTTTACGCAGG,CGGGATCCCGAAAAGGGGCTGACCTT,xhoI,bamHI
+AZ01,H8,,,ykfI,CP4-6 prophage;,CCGCTCGAGATTTGCCAGACAGCCACG,CGGGATCCTTAACCTGCGAAGCCGAC,xhoI,bamHI
+AZ01,H9,,,yggG,conserved protein (2nd module),,CGGGATCCGCCGTTTGCAGGTGAATC,,bamHI
+AZ01,H10,,,fliC,"flagellar biosynthesis; flagellin, filament structural protein (1st module)",CCGCTCGAGCGACAGCGCAGACTGGTT,CGGGATCCAGACCTGACCCGACTCCC,xhoI,bamHI
+AZ01,H11,,,icd,"isocitrate dehydrogenase in e14 prophage, specific for NADP+ (2nd module)",CCGCTCGAGTGGGCTGGTTTTCAGGTT,CGGGATCCAGTTTGCCGTTTTGCAGG,xhoI,bamHI
+AZ01,H12,,,yegT,putative MFS family transport protein (2nd module),CCGCTCGAGGCAACTGCGCAATATCTGTC,CGGGATCCCCACAATGGCACAAACCA,xhoI,bamHI
