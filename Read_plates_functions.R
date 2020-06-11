@@ -5,7 +5,7 @@ read_plates <- function(platefile, platename, dictionary_names, position = "A-D"
   
   plateOD <- read.csv(file = platefile, skip = 1, nrows = 97, row.names = 1, check.names = FALSE)
   
-  plateGFP <- read.csv(file = platefile, skip = 101, nrows = 97, row.names = 1, check.names = FALSE)
+  plateGFP <- read.csv(file = platefile, skip = 102, nrows = 97, row.names = 1, check.names = FALSE)
   
   plateOD <- tidyplates(plateOD)
   plateGFP <- tidyplates(plateGFP)
