@@ -14,9 +14,12 @@ master_plate_grapher <- function(plate_file, platename, dictionary, position) {
   
   OD_RMSE <- check_RMSE(OD_plate)
   
+  
   plate_graphs(OD_plate, platename, "OD", position, OD_RMSE)
   
   plate_graphs(GFP_plate, platename, "GFP", position, OD_RMSE)
   
   plate_graphs(DIV_plate, platename, "DIV", position, OD_RMSE)
+  
+  
 }
