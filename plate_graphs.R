@@ -6,7 +6,7 @@ plate_graphs <- function(plateDF, platename, plate_type, position, OD_RMSE) {
     
     for (wellNum in 1:12) {
       
-      if ((OD_RMSE[wellLetter, wellNum] > 0.05)) { next }
+      #if ((OD_RMSE[wellLetter, wellNum] > 0.05)) { next }
       
       
       wells <- c("A","B","C","D", "E", "F", "G", "H")
@@ -30,7 +30,7 @@ plate_graphs <- function(plateDF, platename, plate_type, position, OD_RMSE) {
         ylab(plate_type)
       
       
-      if (plate_type == "OD") {p + scale_y_continuous(limits = c(0,0.85))}
+      if (plate_type == "OD") {p + scale_y_continuous(trans = 'log10')+ ylab("log10(OD)")}
       p
       
       if (position == "A-D")  {

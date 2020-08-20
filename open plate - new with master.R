@@ -17,5 +17,6 @@ source("master_plate_grapher.R")
 
 dictionary <- read_dictionary("merged_dictionary_new.csv")
 
-master_plate_grapher("Plate_5_AD.csv", "LEN5", dictionary, "A-D")
+master_plate_grapher("LEN2 _A-D_170820.csv", "LEN2", dictionary, "A-D")
+
 

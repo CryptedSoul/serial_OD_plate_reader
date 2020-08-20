@@ -1,6 +1,7 @@
 check_RMSE <- function(plateDF, line_id1 = 0, line_id2 = 0, averages = 0){
   
   averages <- matrix(NA, nrow = 4, ncol = 12, dimnames = list(c("A","B","C", "D"), c(1:12)))
+  failed<-vector()
   
   for (wellLetter in 1:4) {
     for (wellNum in 1:12) {
@@ -24,8 +25,11 @@ check_RMSE <- function(plateDF, line_id1 = 0, line_id2 = 0, averages = 0){
       line_id2<-line_id2[!is.na(line_id2)]
       
       averages[wellLetter, wellNum] <- sqrt(mean((line_id2 - line_id1)^2))
+      
+      if ((averages[wellLetter, wellNum] > 0.05)) {failed <- c(failed, (paste(id_1, "failed the OD test"))) }
     }
   }
-  print(averages) 
-  return(averages)
+  print(averages)
+  return(failed)
 }
+
