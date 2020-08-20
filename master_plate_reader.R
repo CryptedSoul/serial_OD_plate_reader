@@ -30,7 +30,7 @@ read_plates <- function(platefile, platename, dictionary_names, plate_type = "DI
   
   
   for (i in 1:nrow(df)) {
-    if (grepl("A|B|C|D", as.character(df$id[i]))) (df$Condition[i] <- "RPMI")
+    if (grepl("A|B|C|D", as.character(df$id[i]))) (df$Condition[i] <- "-CD3")
     else (df$Condition[i] <- "E.coli")
     
   }

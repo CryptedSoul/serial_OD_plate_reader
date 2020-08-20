@@ -13,6 +13,7 @@ source("Read_dictionary_function.R")
 source("master_plate_reader.R")
 source("plate_graphs.R")
 source("master_plate_grapher.R")
+source("check_diff_exp.R")
 
 
 dictionary <- read_dictionary("merged_dictionary_new.csv")
