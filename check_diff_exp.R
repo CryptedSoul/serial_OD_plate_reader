@@ -1,4 +1,4 @@
-check_diff_exp <- function(plateDF, line_id1 = 0, line_id2 = 0, averages = 0){
+check_diff_exp <- function(plateDF, position, line_id1 = 0, line_id2 = 0, averages = 0){
   
   passed <- vector()
 
@@ -14,7 +14,9 @@ check_diff_exp <- function(plateDF, line_id1 = 0, line_id2 = 0, averages = 0){
       
       line_id1 <- 0
       line_id2 <- 0
-      
+
+
+     
       for (i in seq(1,122, by = 2)) {
         line_id1[i] <- (sbst$OD[i])
         line_id2[i] <- (sbst$OD[i+1])
@@ -23,11 +25,11 @@ check_diff_exp <- function(plateDF, line_id1 = 0, line_id2 = 0, averages = 0){
       line_id1<-line_id1[!is.na(line_id1)]
       line_id2<-line_id2[!is.na(line_id2)]
       
-     
-
+      j<-1
+      if (position == "E-H") {j<-2}
       
       times<-NULL
-      for (i in seq(1,122, by = 2)) {
+      for (i in seq(j,122, by = 2)) {
         times[i] <- (row.names(sbst[i,]))
       }
       times<-times[!is.na(times)]
@@ -44,6 +46,7 @@ check_diff_exp <- function(plateDF, line_id1 = 0, line_id2 = 0, averages = 0){
       
     }
   }
+  
 
   print(passed) 
   return(passed)
