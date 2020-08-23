@@ -13,10 +13,10 @@ master_plate_grapher <- function(plate_file, platename, dictionary, position) {
   
   
   OD_RMSE <- check_RMSE(OD_plate,position)
-  write.csv(OD_RMSE, paste(platename, "_", position, "/", "failedODtest.csv", sep = ""))
+  write.csv(OD_RMSE, paste(platename, "_", position, "/", "failedODtest.csv", sep = ""), row.names = FALSE)
   
   DIV_diff_exp <- check_diff_exp(DIV_plate,position)
-  write.csv(DIV_diff_exp, paste(platename, "_", position, "/", "DIV_diff_exp.csv", sep = ""))
+  write.table(DIV_diff_exp, paste(platename, "_", position, "/", "DIV_diff_exp.csv", sep = ""),  row.names = FALSE)
   
   
   

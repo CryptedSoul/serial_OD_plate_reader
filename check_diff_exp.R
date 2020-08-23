@@ -34,15 +34,19 @@ check_diff_exp <- function(plateDF, position, line_id1 = 0, line_id2 = 0, averag
       }
       times<-times[!is.na(times)]
       
+      div_max<-0
+      times_max<-0
       div_res<-0 
-      for (i in length(line_id1)) {
+      for (i in 1:length(line_id1)) {
        if (line_id1[i] >= line_id2[i]) {div_res<-(line_id1[i]/line_id2[i])}
        else {div_res<-(line_id2[i]/line_id1[i])}
        
-       if (div_res >= 1.5) {
-         passed <- c(passed, times[i])
-       break}
-     } 
+       if (div_res > div_max) {
+         div_max<-div_res
+         times_max<-times[i]
+       }
+      }
+      if (div_max >= 1.3) {passed <- c(passed, paste(times_max,div_max,sep ="_ratio:"))}
       
     }
   }
